@@ -1,0 +1,61 @@
+/ --------------------------------
+
+// addEventListener("DOMContentLoaded", () => {
+//   const addMoviesToArray = movies.movies.map(content => {
+//     const listItem = document.createElement("li");
+//     const contentOfLi = document.createTextNode(content.title);
+//     listItem.appendChild(contentOfLi);
+//     return listItem;
+//   });
+//   const tiles = document.getElementById("tiles");
+//   console.log(tiles);
+//   addMoviesToArray.forEach(item => tiles.appendChild(item));
+// });
+// --------------------------------------------------------------
+
+// const movieList = document.getElementById("resultaat");
+
+// console.log(movieList);
+
+// addEventListener("DOMContentLoaded", () => {
+//   const addMoviesToArray = movies.movies.map(content => {
+
+//   });
+//   const tiles = document.getElementById("tiles");
+//   console.log(tiles);
+//   addMoviesToArray.forEach(item => tiles.appendChild(item));
+// });
+
+// const avengersFilms = movies.map(function(name) {
+//   return name.Title;
+// });
+
+// console.log(
+//   avengersFilms.includes(
+//     "The Avengers",
+//     "Avengers: Infinity War",
+//     "Avengers: Age of Ultron",
+//     "Avengers: Endgame",
+//     "The Avengers",
+//     "The Avengers: Earth's Mightiest Heroes",
+//     "Ultimate Avengers",
+//     "Ultimate Avengers II",
+//     "The Avengers"
+//   )
+// );
+
+// console.log(movies);
+
+// const movies = {
+//   Movies: [
+//     {
+//       Title: "X-Men: Days of Future Past",
+//       Year: "2014",
+//       imdbID: "tt1877832",
+//       Type: "movie",
+//       Poster:
+//         "https://m.media-amazon.com/images/M/MV5BZGIzNWYzN2YtMjcwYS00YjQ3LWI2NjMtOTNiYTUyYjE2MGNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+//     }
+//   ]
+// };
+// console.log(movies);
