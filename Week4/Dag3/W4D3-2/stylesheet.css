@@ -1,0 +1,16 @@
+.hover:hover {
+  color: rgb(160, 203, 243);
+}
+
+.active:active {
+  color: rgb(97, 5, 5);
+}
+
+.visited:visited {
+  color: yellow;
+}
+
+.focus:focus {
+  color: green;
+  font-size: 20px;
+}
