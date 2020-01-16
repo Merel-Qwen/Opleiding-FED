@@ -7,7 +7,7 @@ class GroceryList extends React.Component {
   }
   render() {
     return (
-      <ul>
+      <ul className="grocery-list">
         {this.props.groceryItems.map(grocery => (
           <GroceryItem
             id={grocery.id}

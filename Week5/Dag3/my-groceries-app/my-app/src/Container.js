@@ -22,6 +22,7 @@ class Container extends React.Component {
     };
 
     this.handleClickGroceryItem = this.handleClickGroceryItem.bind(this);
+    this.handleClickEmptyCart = this.handleClickEmptyCart.bind(this);
   }
   handleClickGroceryItem(event) {
     const { id } = event.target;
@@ -40,14 +41,21 @@ class Container extends React.Component {
     });
   };
 
+  handleClickEmptyCart = () => {
+    this.setState((this.state.shoppingItems = []));
+  };
+
   render() {
     return (
-      <div>
+      <div className="div-container">
         <GroceryList
           groceryItems={this.state.groceryItems}
           handleClickGroceryItem={this.handleClickGroceryItem}
         />
-        <ShoppingCart shoppingItems={this.state.shoppingItems} />
+        <ShoppingCart
+          shoppingItems={this.state.shoppingItems}
+          handleClickEmptyCart={this.handleClickEmptyCart}
+        />
       </div>
     );
   }

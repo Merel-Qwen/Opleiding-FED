@@ -7,15 +7,18 @@ class ShoppingCart extends React.Component {
   }
   render() {
     return (
-      <ul>
-        {this.props.shoppingItems.map(grocery => (
-          <ShoppingCartItem
-            id={grocery.id}
-            key={grocery.id}
-            grocery={grocery}
-          />
-        ))}
-      </ul>
+      <div>
+        <ul className="shopping-list">
+          {this.props.shoppingItems.map(grocery => (
+            <ShoppingCartItem
+              id={grocery.id}
+              key={grocery.id}
+              grocery={grocery}
+            />
+          ))}
+        </ul>
+        <button onClick={this.props.handleClickEmptyCart}> Empty Cart</button>
+      </div>
     );
   }
 }
