@@ -1,6 +1,6 @@
 import React from "react";
 
-import Container from "./GroceryList";
+import Container from "./Container";
 
 function App() {
   return (

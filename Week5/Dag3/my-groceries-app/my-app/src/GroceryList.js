@@ -1,8 +1,24 @@
 import React from "react";
 import GroceryItem from "./GroceryItem";
 
-function GroceryList() {
-  return <GroceryItem />;
+class GroceryList extends React.Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return (
+      <ul>
+        {this.props.groceryItems.map(grocery => (
+          <GroceryItem
+            id={grocery.id}
+            key={grocery.id}
+            grocery={grocery}
+            handleClickGroceryItem={this.props.handleClickGroceryItem}
+          />
+        ))}
+      </ul>
+    );
+  }
 }
 
 export default GroceryList;
@@ -11,7 +27,11 @@ export default GroceryList;
 // import Container from "./Container";
 
 // function GroceryList() {
-//   return <Container />;
+//   return (
+//     <div>
+//       <Container />
+//     </div>
+//   );
 // }
 
 // export default GroceryList;

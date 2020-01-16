@@ -1,6 +1,6 @@
 import React from "react";
 
-function GroceryItem(props) {
+function ShoppingCartItem(props) {
   console.log(props.grocery);
   return (
     <li
@@ -8,7 +8,6 @@ function GroceryItem(props) {
       key={props.grocery.id}
       id={props.grocery.id}
       value={props.grocery.title}
-      onClick={props.handleClickGroceryItem}
     >
       {props.grocery.title}
     </li>
@@ -17,4 +16,4 @@ function GroceryItem(props) {
 // console.log(props.item.title);
 // onClick = { handleClickGroceryItem };
 
-export default GroceryItem;
+export default ShoppingCartItem;
