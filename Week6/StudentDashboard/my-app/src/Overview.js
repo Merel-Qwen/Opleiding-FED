@@ -19,10 +19,6 @@ class Overview extends Component {
     };
     return (
       <div>
-        <button onClick={showDifficulty}>Show difficulty</button>
-        <button onClick={showFun}>Show fun</button>
-        <button onClick={showDifficultyAndFun}>Show fun and difficulty</button>
-
         <h1> Overview </h1>
         <BarChart />
         <LineChart />

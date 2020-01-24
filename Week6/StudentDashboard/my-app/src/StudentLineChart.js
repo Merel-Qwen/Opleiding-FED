@@ -5,7 +5,8 @@ import {
   VictoryChart,
   VictoryAxis,
   VictoryVoronoiContainer,
-  VictoryTooltip
+  VictoryTooltip,
+  VictoryTheme
 } from "victory";
 
 const StudentLineChart = function() {
@@ -31,7 +32,12 @@ const StudentLineChart = function() {
   });
 
   return (
-    <VictoryChart domainPadding={20}>
+    <VictoryChart
+      theme={VictoryTheme.material}
+      animate={({ duration: 1000 }, { easing: "bounce" })}
+      domainPadding={20}
+      easing="bounce"
+    >
       <VictoryLine
         style={{
           data: { stroke: "#81ecec" }
