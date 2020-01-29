@@ -1,337 +1,337 @@
 const Data = [
   {
-    student: "Evelyn",
+    student: "Timothy",
     exercise: "W1D1-1",
     difficulty: 1,
     fun: 4
   },
   {
-    student: "Piet",
+    student: "Mark",
     exercise: "W1D1-1",
     difficulty: 2,
     fun: 3
   },
   {
-    student: "Klaas",
+    student: "Merel",
     exercise: "W1D1-1",
     difficulty: 2,
     fun: 4
   },
   {
-    student: "Fatima",
+    student: "Marielle",
     exercise: "W1D1-1",
     difficulty: 1,
     fun: 3
   },
   {
-    student: "Evelyn",
+    student: "Timothy",
     exercise: "W2D2-2",
     difficulty: 4,
     fun: 1
   },
   {
-    student: "Piet",
+    student: "Mark",
     exercise: "W2D2-2",
     difficulty: 4,
     fun: 1
   },
   {
-    student: "Klaas",
+    student: "Merel",
     exercise: "W2D2-2",
     difficulty: 4,
     fun: 1
   },
   {
-    student: "Fatima",
+    student: "Marielle",
     exercise: "W2D2-2",
     difficulty: 4,
     fun: 1
   },
   {
-    student: "Evelyn",
+    student: "Timothy",
     exercise: "W3D3-3",
     difficulty: 2,
     fun: 3
   },
   {
-    student: "Piet",
+    student: "Mark",
     exercise: "W3D3-3",
     difficulty: 2,
     fun: 4
   },
   {
-    student: "Klaas",
+    student: "Merel",
     exercise: "W3D3-3",
     difficulty: 3,
     fun: 4
   },
   {
-    student: "Fatima",
+    student: "Marielle",
     exercise: "W3D3-3",
     difficulty: 2,
     fun: 3
   },
   {
-    student: "Evelyn",
+    student: "Timothy",
     exercise: "W4D4-4",
     difficulty: 2,
     fun: 3
   },
   {
-    student: "Piet",
+    student: "Mark",
     exercise: "W4D4-4",
     difficulty: 3,
     fun: 4
   },
   {
-    student: "Klaas",
+    student: "Merel",
     exercise: "W4D4-4",
     difficulty: 3,
     fun: 4
   },
   {
-    student: "Fatima",
+    student: "Marielle",
     exercise: "W4D4-4",
     difficulty: 3,
     fun: 4
   }
 ];
 // ,{
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D1-2",
 //   difficulty: 2,
 //   fun: 5
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D2-1",
 //   difficulty: 3,
 //   fun: 4
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D2-2",
 //   difficulty: 3,
 //   fun: 4
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D2-3",
 //   difficulty: 3,
 //   fun: 4
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D3-1",
 //   difficulty: 4,
 //   fun: 4
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D3-2",
 //   difficulty: 1,
 //   fun: 3
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D3-3",
 //   difficulty: 4,
 //   fun: 4
 // },
 // {
-//   student: "Evelyn",
+//   student: "Timothy",
 //   exercise: "W2D4-1",
 //   difficulty: 1,
 //   fun: 3
 // },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W2D4-2",
 //     difficulty: 4,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W2D4-3",
 //     difficulty: 1,
 //     fun: 3
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W2D5 - assignment - Filmzoeker",
 //     difficulty: 3,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D1-1",
 //     difficulty: 3,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D1-2",
 //     difficulty: 2,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D1-3",
 //     difficulty: 3,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D1-4",
 //     difficulty: 3,
 //     fun: 3
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D2-1",
 //     difficulty: 2,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D2-2",
 //     difficulty: 3,
 //     fun: 3
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D2-3",
 //     difficulty: 3,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D3-1",
 //     difficulty: 4,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D3-2",
 //     difficulty: 4,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D3-3",
 //     difficulty: 3,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D3-4",
 //     difficulty: 4,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D4-1",
 //     difficulty: 5,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D4-2",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W3D5 - assignment - Todo-List",
 //     difficulty: 2,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D2-1",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D2-2",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D2-3",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D2-4",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D3-1",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D3-2",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D3-3",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D3-4",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D3-5",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W4D3 - assignment - Next-Level CSS",
 //     difficulty: 1,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W5D4-1",
 //     difficulty: 3,
 //     fun: 4
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W5D5 - assignment - Lil_Playlist",
 //     difficulty: 4,
 //     fun: 3
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W6D1-1",
 //     difficulty: 5,
 //     fun: 5
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W6D2-1",
 //     difficulty: 4,
 //     fun: 3
 //   },
 //   {
-//     student: "Evelyn",
+//     student: "Timothy",
 //     exercise: "W6D2 - assignment - Eindopdracht",
 //     difficulty: 5,
 //     fun: 5
